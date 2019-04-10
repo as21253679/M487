@@ -1,0 +1,17 @@
+--cpu=Cortex-M4.fp
+".\objects\system_m480.o"
+".\objects\startup_m480.o"
+".\objects\descriptors.o"
+".\objects\hid_transfer.o"
+".\objects\main.o"
+".\objects\clk.o"
+".\objects\sys.o"
+".\objects\uart.o"
+".\objects\retarget.o"
+".\objects\epwm.o"
+".\objects\eadc.o"
+".\objects\hsusbd.o"
+--strict --scatter ".\Objects\t-win_EADC_HSUSBD.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\t-win_EADC_HSUSBD.map" -o .\Objects\t-win_EADC_HSUSBD.axf

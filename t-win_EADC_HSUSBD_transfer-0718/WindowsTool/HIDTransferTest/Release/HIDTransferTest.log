@@ -1,0 +1,24 @@
+﻿已經開始建置於 2018/6/13 下午 03:36:31。
+     1>節點 2 (build 目標) 上的專案 "D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\HIDTransferTest\HIDTransferTest.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Release\HIDTransferTest.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\Release\HIDTransferTest.exe" /INCREMENTAL:NO /NOLOGO hid.lib /MANIFEST /ManifestFile:"Release\HIDTransferTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\Release\HIDTransferTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\Release\HIDTransferTest.lib" /MACHINE:X86 Release\HIDTransferTest.res
+         Release\HIDTransferTest.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4067: 有多個進入點; 已選取 'mainCRTStartup'
+     1>HIDTransferTest.obj : error LNK2001: 無法解析的外部符號 __imp__SetupDiGetClassDevsW@16
+     1>HIDTransferTest.obj : error LNK2001: 無法解析的外部符號 __imp__SetupDiEnumDeviceInterfaces@20
+     1>HIDTransferTest.obj : error LNK2001: 無法解析的外部符號 __imp__SetupDiGetDeviceInterfaceDetailW@24
+     1>HIDTransferTest.obj : error LNK2001: 無法解析的外部符號 __imp__SetupDiDestroyDeviceInfoList@4
+     1>D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\Release\HIDTransferTest.exe : fatal error LNK1120: 4 個無法解析的外部符號
+     1>專案 "D:\M480BSP-master\M480BSP-master\M480BSP-master\SampleCode\StdDriver\HSUSBD_HID_Transfer\WindowsTool\HIDTransferTest\HIDTransferTest.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.53
